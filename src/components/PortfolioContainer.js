@@ -6,7 +6,6 @@ import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Footer from './Footer';
-//import coverImage from "../assets/cover/Paris.JPG";
 
 
 function PortfolioRender() {
@@ -17,7 +16,7 @@ function PortfolioRender() {
     switch (currentPage) {
       case 'AboutMe':
         return <AboutMe />;
-      case 'Resume':
+      case 'Résumé':
         return <Resume />;
       case 'Contact':
         return <Contact />;

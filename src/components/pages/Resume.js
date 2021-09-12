@@ -1,19 +1,16 @@
 import React from "react";
+import LinkResume from "../../assets/LinkResume.pdf";
 
-const Resume = () => (
-  <div>
-    <h1>Resume Page</h1>
+const Résumé = () => (
+  <main>
+    <h1>Résumé Page</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-      varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-      Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-      imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum ligula
-      in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare elit.
-      Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-      consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-      fames ac ante ipsum primis in faucibus.
+      I have a long background in customer service and leadership. Far from being wasted training, I believe my experiences in my former career give me an advantage in the software developing world. I have lead teams made up of people from different backgrounds and skill levels in challenging environments. I understand that the customer, or client, has high expectations of my performance and that of my team. In business, deadlines have to be met, expectations are high, and getting the most done in the smallest amount of time saves the company money. I lead multi million dollar stores where multi-tasking is essential, working as a team is the only way to get it all done, and communication is vital to success. And yet, without people skills, it all fails to coalesce. My resume is included below for your consideration.
     </p>
-  </div>
+    <div>
+			<a href={LinkResume} target='_blank' rel='noreferrer'>View my Résumé</a>
+    </div>
+  </main>
 );
 
-export default Resume;
+export default Résumé;

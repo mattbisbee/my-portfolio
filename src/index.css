@@ -50,11 +50,13 @@ h6 {
   margin: 5px 0;
   line-height: 1.25;
   color: var(--tertiary);
+  padding: 10px;
 }
 
 p {
   color: var(--tertiary);
   font-family: 'Century Gothic', sans-serif;
+  padding: 10px;
 }
 
 h1 {
