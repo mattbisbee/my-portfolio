@@ -1,8 +1,8 @@
 import React from "react";
 
 const Contact = () => (
-  <div>
-    <h1>Contact Page</h1>
+  <main>
+    <h1>Contact</h1>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
       Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
@@ -14,7 +14,11 @@ const Contact = () => (
       conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
       condimentum magna, quis tempor nulla.
     </p>
-  </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+  </main>
 );
 
 export default Contact;

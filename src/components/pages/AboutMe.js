@@ -1,8 +1,8 @@
 import React from "react";
 
 const AboutMe = () => (
-  <div>
-    <h1>About Page</h1>
+  <main>
+    <h1>About Me</h1>
     <p>
       Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
       ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
@@ -10,7 +10,11 @@ const AboutMe = () => (
       imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
       diam, sit amet facilisis lectus blandit at.
     </p>
-  </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+  </main>
 );
 
 export default AboutMe;

@@ -5,7 +5,6 @@ import AboutMe from './pages/AboutMe';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Footer from './Footer';
 
 
 function PortfolioRender() {
@@ -32,7 +31,6 @@ function PortfolioRender() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
       <div>{renderPage(currentPage)}</div>
-      <Footer></Footer>
     </div>
   );
 }
