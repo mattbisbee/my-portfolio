@@ -10,7 +10,7 @@ const Home = () => (
     <p>
       Explore my website to learn more about what I have to offer as a Full Stack Web Developer.
     </p>
-    <img src={Matt} alt='Matt Bisbee'></img>
+    <img src={Matt} alt='Matt Bisbee' className="matt"></img>
     <br></br>
     <br></br>
     <br></br>

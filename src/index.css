@@ -1,8 +1,7 @@
-main {
-  margin: 0 auto;
-  max-width: 90%;
-  /* padding: 50px 30px; */
+* {
+  box-sizing: border-box;
 }
+
 :root {
   --primary: #001011;
   --secondary: #7392b7 ;
@@ -14,11 +13,7 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
-}
-
-* {
-  box-sizing: border-box;
+  
 }
 
 html,
@@ -35,7 +30,23 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   font-family: 'Century Gothic', sans-serif;
+  
+}
 
+main,
+section {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+a {
+  border-radius: 5px;
+  color: var(--secondary);
+  padding: 15px;
+}
+
+a :hover {
+  color: #fabc2a;
 }
 
 h1,
@@ -61,14 +72,102 @@ p {
   text-align: center;
 }
 
-header {
-  background-size:cover;
-  background-image: url(./assets/cover/Paris.JPG);
-  background-repeat: no-repeat;
-  width: auto;
-  height: 300px;
+
+/* Styling for the Contact form */
+label {
+  color: var(--secondary);
 }
 
+#contact-form {
+  text-align:right;
+  margin: auto;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  opacity: 0.8;
+
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  text-align: right;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.card {
+  width: 25%;
+  text-align: center;
+}
+
+
+/* Image styling */
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.matt,
+.spartan {
+  border-radius: 10% 50% 50% 50%;
+}
+
+
+/* Nav styling */
 nav {
   background-color: var(--primary);
 }
@@ -78,37 +177,8 @@ nav h2 {
   font-weight: bold;
 }
 
-a {
-  border-radius: 5px;
+.navActive {
   color: var(--secondary);
-  padding: 15px;
-}
-
-a :hover {
-  color: #fabc2a;
-}
-
-footer {
-  position: fixed;
-  bottom:0;
-  left: 0;
-  padding: 10px;
-  width: 100%;
-  background: var(--secondary);
-}
-
-footer a {
-  color: var(--primary);
-  font-size: 35px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10% 50% 50% 50%;
 }
 
 /* styling for the nav tab links */
@@ -135,4 +205,18 @@ ul li a:hover {
   color: #fabc2a;
   box-shadow: 0 0 5px #fabc2a;
   text-shadow: 0 0 5px #fabc2a;
+}
+/* Footer styling */
+footer {
+  position: fixed;
+  bottom:0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  background: var(--secondary);
+}
+
+footer a {
+  color: var(--primary);
+  font-size: 35px;
 }

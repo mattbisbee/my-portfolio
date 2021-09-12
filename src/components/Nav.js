@@ -1,4 +1,5 @@
 import React from 'react';
+import Paris from '../assets/Paris.JPG';
 
 function Nav(props) {
   const tabs = ['Home', 'AboutMe', 'Portfolio', 'Contact', 'Résumé'];
@@ -22,6 +23,7 @@ function Nav(props) {
           ))}
         </ul>
       </nav>
+      <img className="paris" src={Paris} alt='Paris'></img>
     </header>
   );
 }

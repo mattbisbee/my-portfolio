@@ -10,7 +10,7 @@ const AboutMe = () => (
     <p>
     Outside of work, I have developed many passions. The outdoors are amazing so I love to hike and camp.My love of the outdoors and my desire to push myself led me to many starting lines at the Spartan Races. There's nothing like wearing that medal at the end! I also love traveling. The adventure of meeting new people, learning words from the local language, trying new food, and seeing different places is something I will never get tired of.
     </p>
-    <img src={Spartan} alt='Spartan Race!'></img>
+    <img src={Spartan} alt='Spartan Race!' className="spartan"></img>
     <br></br>
     <br></br>
     <br></br>
