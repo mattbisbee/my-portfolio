@@ -29,7 +29,6 @@ function PortfolioRender() {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
       <div>{renderPage(currentPage)}</div>
     </div>
   );

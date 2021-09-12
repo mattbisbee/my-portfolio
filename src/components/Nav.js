@@ -8,7 +8,7 @@ function Nav(props) {
         <h2>Matt Bisbee</h2>
         <ul className="nav justify-content-end">
           {tabs.map(tab => (
-            <li className="nav-item" key={tab}>
+            <li key={tab}>
               <a
                 href={'#' + tab.toLowerCase()}
                 onClick={() => props.handlePageChange(tab)}

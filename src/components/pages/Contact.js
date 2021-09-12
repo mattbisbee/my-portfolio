@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Contact = () => (
   <main>
     <h1>Contact</h1>
