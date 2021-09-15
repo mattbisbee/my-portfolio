@@ -42,15 +42,15 @@ function Contact() {
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className='input-group mb-3'>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" class="form-control"  defaultValue={name} onBlur={handleChange} />
+          <input type="text" name="name" className="form-control"  defaultValue={name} onBlur={handleChange} />
         </div>
         <div className='input-group mb-3'>
           <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" class="form-control"  defaultValue={email} onBlur={handleChange} />
+          <input type="email" name="email" className="form-control"  defaultValue={email} onBlur={handleChange} />
         </div>
         <div className='input-group mb-3'>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" class="form-control" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea name="message" className="form-control" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>

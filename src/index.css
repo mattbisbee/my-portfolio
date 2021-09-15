@@ -144,6 +144,26 @@ textarea {
   text-align: center;
 }
 
+/* flex container styling start*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+.flex-container article {
+  margin: 20px;
+}
+
+.quote, 
+.ramble,
+.horiseon,
+.weather {
+  border-radius: 25px;
+  width: auto;
+}
+/*flex container styling end*/
+
 
 /* Image styling */
 .img-thumbnail {
