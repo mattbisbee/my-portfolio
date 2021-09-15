@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.3a6d518c.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.48b28129.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.48b28129.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.bb8ff2ae.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.bb8ff2ae.js.map",
+    "static/js/2.501bda6b.chunk.js": "/my-portfolio/static/js/2.501bda6b.chunk.js",
+    "static/js/2.501bda6b.chunk.js.map": "/my-portfolio/static/js/2.501bda6b.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.3a6d518c.chunk.css.map": "/my-portfolio/static/css/main.3a6d518c.chunk.css.map",
+    "static/js/2.501bda6b.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.501bda6b.chunk.js.LICENSE.txt",
+    "static/media/LinkResume.7c968081.pdf": "/my-portfolio/static/media/LinkResume.7c968081.pdf",
+    "static/media/Matt.eb407413.jpg": "/my-portfolio/static/media/Matt.eb407413.jpg",
+    "static/media/Paris.2572d871.JPG": "/my-portfolio/static/media/Paris.2572d871.JPG",
+    "static/media/horiseon.92635912.PNG": "/my-portfolio/static/media/horiseon.92635912.PNG",
+    "static/media/quotegenerator.b30fca29.jpg": "/my-portfolio/static/media/quotegenerator.b30fca29.jpg",
+    "static/media/rambleonsite.09a150a7.jpg": "/my-portfolio/static/media/rambleonsite.09a150a7.jpg",
+    "static/media/spartan.7c32cbdf.jpg": "/my-portfolio/static/media/spartan.7c32cbdf.jpg",
+    "static/media/weather.6af4a66c.jpg": "/my-portfolio/static/media/weather.6af4a66c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb8ff2ae.js",
+    "static/js/2.501bda6b.chunk.js",
+    "static/css/main.3a6d518c.chunk.css",
+    "static/js/main.48b28129.chunk.js"
+  ]
+}
